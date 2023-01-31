@@ -20,3 +20,11 @@
 
 import "../../node_modules/bootstrap/js/dist/util.js";
 import "../../node_modules/bootstrap/js/dist/modal.js";
+
+import { Fancybox }  from "../../node_modules/@fancyapps/ui/src/Fancybox/Fancybox.js";
+import { Carousel }  from "../../node_modules/@fancyapps/ui/src/Carousel/Carousel.js";
+
+// Initialise Carousel
+const cardSlider = new Carousel(document.querySelector("#cardSlider"), {
+  Dots: false,
+});
